@@ -1,0 +1,21 @@
+{
+  "name": "steeple/image-parser",
+  "description": "Parse images by given keyword",
+  "type": "",
+  "keywords": ["image","google"],
+  "license": "LGPL-3.0+",
+  "authors": [
+    {
+      "name": "Oleksandr Shmyheliuk",
+      "email": "steeplew@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ImageParser\\": "src/"
+    }
+  }
+}
